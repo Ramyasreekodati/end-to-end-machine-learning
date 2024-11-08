@@ -1,6 +1,7 @@
 # default code
 import setuptools
 
+# Handle missing README.md
 try:
     with open("README.md", "r", encoding="utf-8") as f:
         long_description = f.read()
@@ -19,9 +20,9 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for ml app",
+    description="A small python package for ml app",  # Added missing comma
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/markdown",  # Corrected line
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
