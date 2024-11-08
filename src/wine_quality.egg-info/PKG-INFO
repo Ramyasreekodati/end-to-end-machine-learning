@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: wine_quality
+Version: 0.0.0
+Summary: A small python package for ml app
+Home-page: https://github.com/Ramyasreekodati/end-to-end-machine-learning-Implementation
+Author: Ramyasreekodati
+Author-email: kodatiramyasree123@gmail.com
+Project-URL: Bug Tracker, https://github.com/Ramyasreekodati/end-to-end-machine-learning-Implementation/issues
+Description-Content-Type: text/markdown
+
+A detailed description of the project.
